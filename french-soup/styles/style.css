@@ -9,8 +9,6 @@ html {
   font-size: 18px
 }
 
-
-
 #fundo_comeco{
   height: 47vw;
   background-image: url(../images/soup.jpg);
@@ -28,7 +26,6 @@ html {
   font-size: 6vw;
   font-weight: normal;
   color: white;
-  
 }
 
 .conteudo{
