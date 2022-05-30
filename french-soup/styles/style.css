@@ -1,9 +1,69 @@
 /*Some necessary adjustments*/
 h1, body, html, main {
   margin: 0;
+  padding: 0;
 }
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+}
+
+
+
+#fundo_comeco{
+  height: 47vw;
+  background-image: url(../images/soup.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  margin-bottom: 100px;
+}
+
+.fundo_comeco_h1{
+  display: flex;
+  justify-content: center;
+  height: 47vw;
+  align-items: center;
+  font-size: 6vw;
+  font-weight: normal;
+  color: white;
+  
+}
+
+.conteudo{
+  margin: auto;
+  width: 66vw;
+}
+
+.conteudo_p{
+  font-size: 1.3em ;
+}
+
+.conteudo_p_p{
+  font-size: 1.1em;
+}
+
+.conteudo_img{
+display: flex;
+justify-content: center;
+padding: 50px;
+}
+
+#borda_grossa{
+  border-bottom: 3px solid gray;
+}
+
+#borda_fina{
+  border-bottom: 2px solid gray;
+}
+
+.subtitulos{
+  margin-top: 60px;
+  margin-bottom: 60px;
+  font-weight: normal;
+}
+
+.conteudo_img img{
+  width: 400px;
 }
